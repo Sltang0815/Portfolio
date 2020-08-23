@@ -11,14 +11,19 @@
 * In the About me I added little icons of my socials, with anchored links imbedded to my IG, Linkin, and FB. I don't have twitter so I skipped it
 https://www.w3schools.com/icons/fontawesome_icons_brand.asp
 
+## Portfolio
+I added 4 rows with 3 columns of 4 in size
+I used filler photos
+and added social buttons at the bottom. I conntected everything to my social accounts
 
 ### Contact
 * basic contact page
    containing:
    a card like container for filling out your info, in order to get a hold of me
-https://www.w3schools.com/bootstrap4/bootstrap_forms.asp
-https://getbootstrap.com/docs/4.0/components/card/
-### Minimum Requirements
 
+
+
+### valid
+I validated my pages with the validation site
 
 
