@@ -1,13 +1,43 @@
-section {
-
-    margin:2px;
-    padding: 100px;
-    text-align:center ;
+h1{
+    padding: 2em;
+    
+}
+h2{
+    color: white;
+}
+#contact {
+    margin: 20em;
+    padding: 20em;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
-#images {
-    display: flex;
-    justify-content: space-around;
-    width: 2px;
-    height: 2px;
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+footer {
+    padding: 10em;
+    display:flex;
+    justify-content: center;
+    
 }

@@ -11,11 +11,14 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Hello, world!</title>
+
 </head>
 
-<body>
 
+<body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
 
         <a class="navbar-brand" href="#">Steven Tang</a>
@@ -35,50 +38,79 @@
         </div>
     </nav>
 
+    <br>
     <!--look up activities-->
-    <container>
-        <div class="container">
+
+    <main>
+
+        <h1 class="text-center">Contact</h1>
+
+        <container id="contact">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="jumbotron text-center">
-                        <h1>Hi, Class!</h1>
-                        <img src="https://avatars0.githubusercontent.com/u/67080854?s=460&u=16b0b4fc9d89b6521f8573b960be61a6a5511324&v=4"
-                            class="rounded-circle" alt="Steven">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                     </div>
+                    <div class="status"></div>
                 </div>
+                <!--Grid column-->
+
+
+
             </div>
 
-            <section class="row">
-                <div class="col-md-4">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vel, placeat, dignissimos possimus
-                        repudiandae impedit aut nesciunt odit eius nihil hic sunt adipisci explicabo accusantium
-                        distinctio
-                        officia fuga minus eveniet!</p>
+        </container>
 
-                </div>
-                <div class="col-md-4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ducimus, explicabo distinctio nisi
-                        quibusdam placeat? Consequatur fugit voluptatum totam a dignissimos soluta enim eius, incidunt
-                        rerum
-                        dolorem nostrum, repudiandae inventore.</p>
+    </main>
 
-                </div>
-
-
-
-
-
-
-            </section>
-
-
-
-
-
-
-
-        </div>
-    </container>
 
 
     <!-- Optional JavaScript -->
@@ -92,6 +124,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <footer>
+
+        <a href="https://www.facebook.com/Sltang93/" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/s_tang3/" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/steven-tang-26b7991b0/" class="fa fa-linkedin"></a>
+    </footer>
+
+
+
 </body>
+
 
 </html>
