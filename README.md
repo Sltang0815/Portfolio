@@ -31,3 +31,4 @@ https://sltang0815.github.io/Portfolio/
 
 
 ![Getting Started](/images/portfolioSS.JPG)
+![Getting Started](/images/portSS.JPG)
