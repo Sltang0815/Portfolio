@@ -30,3 +30,4 @@ I validated my pages with the validation site
 https://sltang0815.github.io/Portfolio/
 
 
+![Getting Started](/images/portfolioSS.JPG)
