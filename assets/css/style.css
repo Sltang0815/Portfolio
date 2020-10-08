@@ -9,6 +9,9 @@ h2{
    margin: 2em;
    padding: 15px;
  }
+body{
+  margin: 25px;
+}
 #contact {
     margin: 20em;
     padding: 20em;
@@ -38,6 +41,10 @@ h2{
   background: #007bb5;
   color: white;
 }
+.fa-github {
+    background: black;
+    color: white;
+}
 
 footer {
     padding: 10em;
@@ -50,3 +57,4 @@ button {
   align-items:center;
   
 }
+
