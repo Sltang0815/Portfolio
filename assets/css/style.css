@@ -5,6 +5,10 @@ h1{
 h2{
     color: white;
 }
+ section {
+   margin: 2em;
+   padding: 15px;
+ }
 #contact {
     margin: 20em;
     padding: 20em;
