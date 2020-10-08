@@ -26,4 +26,7 @@ and added social buttons at the bottom. I conntected everything to my social acc
 ### valid
 I validated my pages with the validation site
 
+### Deployed link
+https://sltang0815.github.io/Portfolio/
+
 
